@@ -14,7 +14,7 @@ export function AboutUsSectionComponent() {
               Our <span className="text-blue-600">Story</span>
             </h2>
             <p className="text-zinc-700 md:text-lg">
-              Q7 Technology is a proud Ballarat family-owned business with deep roots in our community. For over six decades, we've been at the forefront of technological innovation, providing cutting-edge IT solutions to businesses across the region.
+              Q7 Technology is a proud Ballarat family-owned business with deep roots in our community. For over six decades, we&apos;ve been at the forefront of technological innovation, providing cutting-edge IT solutions to businesses across the region.
             </p>
             <ul className="space-y-4">
               <li className="flex items-center space-x-3">
@@ -31,7 +31,7 @@ export function AboutUsSectionComponent() {
               </li>
             </ul>
             <p className="text-zinc-700 md:text-lg">
-              Our team's expertise spans generations, allowing us to blend time-tested wisdom with the latest technological advancements. We're committed to delivering personalized IT solutions that help local businesses thrive in the digital age.
+              Our team&apos;s expertise spans generations, allowing us to blend time-tested wisdom with the latest technological advancements. We&apos;re committed to delivering personalized IT solutions that help local businesses thrive in the digital age.
             </p>
           </div>
           {/* <div

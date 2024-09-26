@@ -34,7 +34,7 @@ export function ContactPageComponent() {
         <div className="grid md:grid-cols-2 gap-12">
           <div>
             <p className="text-zinc-700 mb-8">
-              We're here to help and answer any question you might have. We look forward to hearing from you.
+              We&apos;re here to help and answer any question you might have. We look forward to hearing from you.
             </p>
             
             <form onSubmit={handleSubmit} className="space-y-6">

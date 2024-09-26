@@ -1,6 +1,7 @@
 'use client'
 
-import { CheckCircle, Settings, DollarSign } from "lucide-react"
+import { CheckCircle, Settings, DollarSign } from "lucide-react";
+import Link from 'next/link';
 
 export function WhyUsSectionComponent() {
   return (
@@ -33,7 +34,7 @@ export function WhyUsSectionComponent() {
               <h3 className="text-xl font-semibold text-black">Unique, Customised Solutions</h3>
             </div>
             <p className="text-zinc-700">
-              We understand that every business is unique. That's why we create tailor-made IT solutions that perfectly align with your specific needs and goals, ensuring optimal performance and efficiency.
+              We understand that every business is unique. That&apos;s why we create tailor-made IT solutions that perfectly align with your specific needs and goals, ensuring optimal performance and efficiency.
             </p>
           </div>
           <div
@@ -48,11 +49,9 @@ export function WhyUsSectionComponent() {
           </div>
         </div>
         <div className="mt-12 text-center">
-          <a
-            href="#"
-            className="inline-flex items-center justify-center rounded-md bg-blue-600 px-6 py-3 text-sm font-medium text-white shadow transition-colors hover:bg-blue-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500">
-            Learn More About Our Services
-          </a>
+            <Link href="/services"  className="inline-flex items-center justify-center rounded-md bg-blue-600 px-6 py-3 text-sm font-medium text-white shadow transition-colors hover:bg-blue-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500">
+              Learn More About Our Services
+            </Link>
         </div>
       </div>
     </section>)
