@@ -8,21 +8,21 @@ const testimonials = [
   {
     name: "Sarah Thompson",
     role: "CEO, Thompson Enterprises",
-    image: "/placeholder.svg?height=100&width=100",
+    image: "",
     quote: "Q7 Technology transformed our IT infrastructure. Their expertise and personalized approach have been invaluable to our business growth.",
     rating: 5,
   },
   {
     name: "Michael Chen",
     role: "CTO, Innovate Solutions",
-    image: "/placeholder.svg?height=100&width=100",
+    image: "",
     quote: "The team at Q7 Technology consistently delivers cutting-edge solutions. Their support has been crucial in keeping our systems secure and efficient.",
     rating: 5,
   },
   {
     name: "Emily Rodriguez",
     role: "Operations Manager, Global Logistics Co.",
-    image: "/placeholder.svg?height=100&width=100",
+    image: "",
     quote: "Q7's managed IT services have significantly reduced our downtime and improved productivity. Their responsiveness is unmatched.",
     rating: 5,
   },
@@ -40,12 +40,13 @@ export function TestimonialSectionComponent() {
           {testimonials.map((testimonial, index) => (
             <div key={index} className="bg-white p-6 rounded-lg shadow-md">
               <div className="flex items-center mb-4">
-                <Image
+                {testimonial.image && <Image
                   src={testimonial.image}
                   alt={testimonial.name}
                   width={50}
                   height={50}
-                  className="rounded-full mr-4" />
+                  className="rounded-full mr-4" />}
+                
                 <div>
                   <h3 className="font-semibold text-lg text-black">{testimonial.name}</h3>
                   <p className="text-zinc-600 text-sm">{testimonial.role}</p>
