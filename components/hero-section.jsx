@@ -18,13 +18,13 @@ export function HeroSectionComponent() {
             </p>
             <div className="flex items-center space-x-4">
               <a
-                href="#"
+                href="/contact"
                 className="inline-flex items-center justify-center rounded-md bg-blue-600 px-6 py-3 text-sm font-medium text-white shadow transition-colors hover:bg-blue-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500">
                 Get Started
                 <ArrowRight className="ml-2 h-4 w-4" />
               </a>
               <a
-                href="#"
+                href="/services"
                 className="inline-flex items-center justify-center rounded-md border border-zinc-200 bg-white px-6 py-3 text-sm font-medium text-zinc-900 shadow-sm transition-colors hover:bg-zinc-100 hover:text-zinc-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-500">
                 Learn More
               </a>

@@ -26,13 +26,6 @@ const testimonials = [
     quote: "Q7's managed IT services have significantly reduced our downtime and improved productivity. Their responsiveness is unmatched.",
     rating: 5,
   },
-  {
-    name: "Emily Rodriguez",
-    role: "Operations Manager, Global Logistics Co.",
-    image: "/placeholder.svg?height=100&width=100",
-    quote: "Q7's managed IT services have significantly reduced our downtime and improved productivity. Their responsiveness is unmatched.",
-    rating: 5,
-  },
 ]
 
 export function TestimonialSectionComponent() {
@@ -68,6 +61,9 @@ export function TestimonialSectionComponent() {
           ))}
         </div>
         <div className="mt-12 text-center">
+          <p className="text-zinc-700 mb-4">
+            Ready to experience the Q7 Technology difference for yourself?
+          </p>
           <Link
             href="/contact"
             className="inline-flex items-center justify-center rounded-md bg-blue-600 px-6 py-3 text-sm font-medium text-white shadow transition-colors hover:bg-blue-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500">
