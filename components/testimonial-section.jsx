@@ -58,7 +58,7 @@ export function TestimonialSectionComponent() {
                   <p className="text-zinc-600 text-sm">{testimonial.role}</p>
                 </div>
               </div>
-              <p className="text-zinc-700 mb-4">"{testimonial.quote}"</p>
+              <p className="text-zinc-700 mb-4">&quot;{testimonial.quote}&quot;</p>
               <div className="flex">
                 {[...Array(testimonial.rating)].map((_, i) => (
                   <Star key={i} className="h-5 w-5 text-yellow-400 fill-current" />
